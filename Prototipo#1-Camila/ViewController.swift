@@ -24,6 +24,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   @IBOutlet weak var verTarefaPopUp: UIView!
   @IBOutlet weak var verPontosPopUp: UIView!
     
+  //outlets das gambiarras
+    @IBOutlet weak var fotoTarefaEscolhida: UIImageView!
+    
+  //
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -120,13 +124,17 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
   } // </func>
   
-  
+    @IBAction func addFotoTarefaButton(_ sender: Any) {
+        fotoTarefaEscolhida.image = UIImage(named: "pratos.jpg")
+        
+    }
+    
   //dismiss nos popups
     @IBAction func addTarefaButton(_ sender: Any) {
         addTarefaPopUp.removeFromSuperview()
         // append no array
-    
     }
+    
     
     
     

@@ -171,6 +171,7 @@
                     <connections>
                         <outlet property="addMoradorPopUp" destination="c1W-cr-NeY" id="388-IS-TJY"/>
                         <outlet property="addTarefaPopUp" destination="YzY-uX-zHu" id="OU7-gY-npd"/>
+                        <outlet property="fotoTarefaEscolhida" destination="jnB-py-67p" id="IXp-DD-DiC"/>
                         <outlet property="moradoresDaCasaCollection" destination="YjL-UT-pqY" id="CRr-1f-gY9"/>
                         <outlet property="tarefasEscolhidasCollection" destination="M8J-FR-Mnd" id="j5f-TV-Xt3"/>
                         <outlet property="tarefasLivresCollection" destination="oT3-Fk-yU9" id="F34-xE-q2d"/>
@@ -205,14 +206,14 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QU8-XQ-3If">
-                            <rect key="frame" x="97" y="297" width="46" height="30"/>
+                            <rect key="frame" x="89" y="297" width="63" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button"/>
+                            <state key="normal" title="adicionar"/>
                             <connections>
                                 <action selector="addTarefaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="szY-KA-43x"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um8-nd-fnc">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tire uma foto da tarefa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="um8-nd-fnc">
                             <rect key="frame" x="20" y="20" width="200" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -230,6 +231,13 @@
                             <rect key="frame" x="68" y="99" width="105" height="90"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb3-hZ-i6k">
+                            <rect key="frame" x="20" y="49" width="200" height="190"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="addFotoTarefaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kfX-ef-IWV"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" red="0.95686274510000002" green="0.35294117650000001" blue="0.55294117649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <viewLayoutGuide key="safeArea" id="E3b-Zd-tNh"/>
