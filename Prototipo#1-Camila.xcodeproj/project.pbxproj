@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F3207694E900905B2A /* AppDelegate.swift */; };
+		57FEA2F6207694E900905B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F5207694E900905B2A /* ViewController.swift */; };
+		57FEA2F9207694E900905B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2F7207694E900905B2A /* Main.storyboard */; };
+		57FEA2FB207694ED00905B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2FA207694ED00905B2A /* Assets.xcassets */; };
+		57FEA2FE207694ED00905B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */; };
+		57FEA309207694EE00905B2A /* Prototipo_1_CamilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA308207694EE00905B2A /* Prototipo_1_CamilaTests.swift */; };
+		57FEA314207694EE00905B2A /* Prototipo_1_CamilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57FEA305207694EE00905B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57FEA2E8207694E800905B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FEA2EF207694E800905B2A;
+			remoteInfo = "Prototipo#1-Camila";
+		};
+		57FEA310207694EE00905B2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57FEA2E8207694E800905B2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57FEA2EF207694E800905B2A;
+			remoteInfo = "Prototipo#1-Camila";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo#1-Camila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FEA2F3207694E900905B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57FEA2F5207694E900905B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57FEA2F8207694E900905B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57FEA2FA207694ED00905B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57FEA2FD207694ED00905B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57FEA2FF207694ED00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FEA304207694EE00905B2A /* Prototipo#1-CamilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototipo#1-CamilaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FEA308207694EE00905B2A /* Prototipo_1_CamilaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototipo_1_CamilaTests.swift; sourceTree = "<group>"; };
+		57FEA30A207694EE00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FEA30F207694EE00905B2A /* Prototipo#1-CamilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototipo#1-CamilaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototipo_1_CamilaUITests.swift; sourceTree = "<group>"; };
+		57FEA315207694EE00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FEA2ED207694E800905B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA301207694EE00905B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA30C207694EE00905B2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FEA2E7207694E800905B2A = {
+			isa = PBXGroup;
+			children = (
+				57FEA2F2207694E900905B2A /* Prototipo#1-Camila */,
+				57FEA307207694EE00905B2A /* Prototipo#1-CamilaTests */,
+				57FEA312207694EE00905B2A /* Prototipo#1-CamilaUITests */,
+				57FEA2F1207694E900905B2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57FEA2F1207694E900905B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */,
+				57FEA304207694EE00905B2A /* Prototipo#1-CamilaTests.xctest */,
+				57FEA30F207694EE00905B2A /* Prototipo#1-CamilaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FEA2F2207694E900905B2A /* Prototipo#1-Camila */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA2F3207694E900905B2A /* AppDelegate.swift */,
+				57FEA2F5207694E900905B2A /* ViewController.swift */,
+				57FEA2F7207694E900905B2A /* Main.storyboard */,
+				57FEA2FA207694ED00905B2A /* Assets.xcassets */,
+				57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */,
+				57FEA2FF207694ED00905B2A /* Info.plist */,
+			);
+			path = "Prototipo#1-Camila";
+			sourceTree = "<group>";
+		};
+		57FEA307207694EE00905B2A /* Prototipo#1-CamilaTests */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA308207694EE00905B2A /* Prototipo_1_CamilaTests.swift */,
+				57FEA30A207694EE00905B2A /* Info.plist */,
+			);
+			path = "Prototipo#1-CamilaTests";
+			sourceTree = "<group>";
+		};
+		57FEA312207694EE00905B2A /* Prototipo#1-CamilaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */,
+				57FEA315207694EE00905B2A /* Info.plist */,
+			);
+			path = "Prototipo#1-CamilaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FEA2EF207694E800905B2A /* Prototipo#1-Camila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FEA318207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-Camila" */;
+			buildPhases = (
+				57FEA2EC207694E800905B2A /* Sources */,
+				57FEA2ED207694E800905B2A /* Frameworks */,
+				57FEA2EE207694E800905B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prototipo#1-Camila";
+			productName = "Prototipo#1-Camila";
+			productReference = 57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57FEA303207694EE00905B2A /* Prototipo#1-CamilaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FEA31B207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-CamilaTests" */;
+			buildPhases = (
+				57FEA300207694EE00905B2A /* Sources */,
+				57FEA301207694EE00905B2A /* Frameworks */,
+				57FEA302207694EE00905B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57FEA306207694EE00905B2A /* PBXTargetDependency */,
+			);
+			name = "Prototipo#1-CamilaTests";
+			productName = "Prototipo#1-CamilaTests";
+			productReference = 57FEA304207694EE00905B2A /* Prototipo#1-CamilaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57FEA30E207694EE00905B2A /* Prototipo#1-CamilaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FEA31E207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-CamilaUITests" */;
+			buildPhases = (
+				57FEA30B207694EE00905B2A /* Sources */,
+				57FEA30C207694EE00905B2A /* Frameworks */,
+				57FEA30D207694EE00905B2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57FEA311207694EE00905B2A /* PBXTargetDependency */,
+			);
+			name = "Prototipo#1-CamilaUITests";
+			productName = "Prototipo#1-CamilaUITests";
+			productReference = 57FEA30F207694EE00905B2A /* Prototipo#1-CamilaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FEA2E8207694E800905B2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Camila Simões";
+				TargetAttributes = {
+					57FEA2EF207694E800905B2A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					57FEA303207694EE00905B2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 57FEA2EF207694E800905B2A;
+					};
+					57FEA30E207694EE00905B2A = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 57FEA2EF207694E800905B2A;
+					};
+				};
+			};
+			buildConfigurationList = 57FEA2EB207694E800905B2A /* Build configuration list for PBXProject "Prototipo#1-Camila" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57FEA2E7207694E800905B2A;
+			productRefGroup = 57FEA2F1207694E900905B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FEA2EF207694E800905B2A /* Prototipo#1-Camila */,
+				57FEA303207694EE00905B2A /* Prototipo#1-CamilaTests */,
+				57FEA30E207694EE00905B2A /* Prototipo#1-CamilaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FEA2EE207694E800905B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FEA2FE207694ED00905B2A /* LaunchScreen.storyboard in Resources */,
+				57FEA2FB207694ED00905B2A /* Assets.xcassets in Resources */,
+				57FEA2F9207694E900905B2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA302207694EE00905B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA30D207694EE00905B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FEA2EC207694E800905B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FEA2F6207694E900905B2A /* ViewController.swift in Sources */,
+				57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA300207694EE00905B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FEA309207694EE00905B2A /* Prototipo_1_CamilaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FEA30B207694EE00905B2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FEA314207694EE00905B2A /* Prototipo_1_CamilaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57FEA306207694EE00905B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FEA2EF207694E800905B2A /* Prototipo#1-Camila */;
+			targetProxy = 57FEA305207694EE00905B2A /* PBXContainerItemProxy */;
+		};
+		57FEA311207694EE00905B2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57FEA2EF207694E800905B2A /* Prototipo#1-Camila */;
+			targetProxy = 57FEA310207694EE00905B2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57FEA2F7207694E900905B2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FEA2F8207694E900905B2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FEA2FD207694ED00905B2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FEA316207694EE00905B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57FEA317207694EE00905B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FEA319207694EE00905B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-Camila/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-Camila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57FEA31A207694EE00905B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-Camila/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-Camila";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57FEA31C207694EE00905B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-CamilaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototipo#1-Camila.app/Prototipo#1-Camila";
+			};
+			name = Debug;
+		};
+		57FEA31D207694EE00905B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-CamilaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototipo#1-Camila.app/Prototipo#1-Camila";
+			};
+			name = Release;
+		};
+		57FEA31F207694EE00905B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-CamilaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prototipo#1-Camila";
+			};
+			name = Debug;
+		};
+		57FEA320207694EE00905B2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Prototipo#1-CamilaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prototipo#1-Camila";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FEA2EB207694E800905B2A /* Build configuration list for PBXProject "Prototipo#1-Camila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FEA316207694EE00905B2A /* Debug */,
+				57FEA317207694EE00905B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FEA318207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-Camila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FEA319207694EE00905B2A /* Debug */,
+				57FEA31A207694EE00905B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FEA31B207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-CamilaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FEA31C207694EE00905B2A /* Debug */,
+				57FEA31D207694EE00905B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FEA31E207694EE00905B2A /* Build configuration list for PBXNativeTarget "Prototipo#1-CamilaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FEA31F207694EE00905B2A /* Debug */,
+				57FEA320207694EE00905B2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FEA2E8207694E800905B2A /* Project object */;
+}
