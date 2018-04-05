@@ -8,6 +8,9 @@
 
 import UIKit
 
+// célula especial que vai conter um botão com imagem
 class MoradorCelula: UICollectionViewCell {
-    
+ 
+  
+  
 }

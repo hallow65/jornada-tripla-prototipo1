@@ -4,7 +4,7 @@
 //
 //  Created by Aluno on 4/5/18.
 //  Copyright © 2018 Camila Simões. All rights reserved.
-//
+//  flaticon
 
 import UIKit
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576639DB2076BF1F00372643 /* MoradorCelula.swift */; };
 		57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F3207694E900905B2A /* AppDelegate.swift */; };
 		57FEA2F6207694E900905B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F5207694E900905B2A /* ViewController.swift */; };
 		57FEA2F9207694E900905B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2F7207694E900905B2A /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		57FEA2FE207694ED00905B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */; };
 		57FEA309207694EE00905B2A /* Prototipo_1_CamilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA308207694EE00905B2A /* Prototipo_1_CamilaTests.swift */; };
 		57FEA314207694EE00905B2A /* Prototipo_1_CamilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */; };
+		57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA32120769F0C00905B2A /* TarefaDomesticaClasse.swift */; };
+		57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA3242076A1EB00905B2A /* MoradoreClasse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576639DB2076BF1F00372643 /* MoradorCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradorCelula.swift; sourceTree = "<group>"; };
 		57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo#1-Camila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA2F3207694E900905B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA2F5207694E900905B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		57FEA30F207694EE00905B2A /* Prototipo#1-CamilaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototipo#1-CamilaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototipo_1_CamilaUITests.swift; sourceTree = "<group>"; };
 		57FEA315207694EE00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FEA32120769F0C00905B2A /* TarefaDomesticaClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaDomesticaClasse.swift; sourceTree = "<group>"; };
+		57FEA3242076A1EB00905B2A /* MoradoreClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradoreClasse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +80,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5778D7832076E61400B32936 /* Subclasses Novas */ = {
+			isa = PBXGroup;
+			children = (
+				576639DB2076BF1F00372643 /* MoradorCelula.swift */,
+			);
+			path = "Subclasses Novas";
+			sourceTree = "<group>";
+		};
+		5778D7842076E65200B32936 /* Classes Novas */ = {
+			isa = PBXGroup;
+			children = (
+				57FEA32120769F0C00905B2A /* TarefaDomesticaClasse.swift */,
+				57FEA3242076A1EB00905B2A /* MoradoreClasse.swift */,
+			);
+			path = "Classes Novas";
+			sourceTree = "<group>";
+		};
 		57FEA2E7207694E800905B2A = {
 			isa = PBXGroup;
 			children = (
+				5778D7832076E61400B32936 /* Subclasses Novas */,
+				5778D7842076E65200B32936 /* Classes Novas */,
 				57FEA2F2207694E900905B2A /* Prototipo#1-Camila */,
 				57FEA307207694EE00905B2A /* Prototipo#1-CamilaTests */,
 				57FEA312207694EE00905B2A /* Prototipo#1-CamilaUITests */,
@@ -257,7 +282,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FEA2F6207694E900905B2A /* ViewController.swift in Sources */,
+				576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */,
 				57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */,
+				57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */,
+				57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
