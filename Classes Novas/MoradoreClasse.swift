@@ -12,16 +12,20 @@ import UIKit
 class Morador {
   var imagem:UIImage
   var nome:String = ""
-  var pontuacao:Int
+  var pontuacao:Int = 0
   var estaGanhando:Bool = false
   
-  init (imagem:UIImage, nome:String, pontuação:Int) {
+  init (imagem:UIImage, nome:String) {
     self.imagem = imagem
     self.nome = nome
-    self.pontuacao = pontuação
   }
   
 }
 
 
-var ninguem = Morador(imagem: UIImage(named: "add-morador.png")!, nome:"Ninguem", pontuação: 0)
+var ninguem = Morador(imagem: UIImage(named: "add-morador.png")!, nome:"Ninguem")
+
+//var penelope = Morador(
+//penelope.imagem
+//Morador(<#T##imagem: UIImage##UIImage#>, nome: <#T##String#>, pontuação: <#T##Int#>)
+

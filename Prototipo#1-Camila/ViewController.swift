@@ -8,18 +8,45 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+class ViewController: UIViewController, UICollectionViewDataSource {
+  
+  
+ 
+  // numero de celulas
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    return bancoDeMoradores.count
+  }
+  
+  //
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    let celulacriada : MoradorCelula = moradoresDaCasa.dequeueReusableCell(withReuseIdentifier: "fotosMoradores", for: indexPath) as! MoradorCelula
+    
+    celulacriada.moradorIconeButton.setBackgroundImage(bancoDeMoradores[indexPath.row].imagem, for: .normal)
+    
+    
+    //mudanças
+    
+    return celulacriada
+  }
+  
+  
+  @IBOutlet weak var moradoresDaCasa: UICollectionView!
+  
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    self.moradoresDaCasa.dataSource = self
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
+  
+  
+  
+  
+  
 }
 

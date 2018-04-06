@@ -37,4 +37,4 @@ class TarefaDomestica {
 }
 
 
-var varrer = TarefaDomestica(imagem: <#T##UIImage#>, descrição: <#T##String#>, prazo: <#T##String#>, valor: <#T##Int#>)
+

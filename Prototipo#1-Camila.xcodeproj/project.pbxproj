@@ -17,6 +17,7 @@
 		57FEA314207694EE00905B2A /* Prototipo_1_CamilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */; };
 		57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA32120769F0C00905B2A /* TarefaDomesticaClasse.swift */; };
 		57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA3242076A1EB00905B2A /* MoradoreClasse.swift */; };
+		EFCC413D20780EA700D7E7DD /* BancoDeMoradores.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCC413C20780EA700D7E7DD /* BancoDeMoradores.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		57FEA315207694EE00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FEA32120769F0C00905B2A /* TarefaDomesticaClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaDomesticaClasse.swift; sourceTree = "<group>"; };
 		57FEA3242076A1EB00905B2A /* MoradoreClasse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradoreClasse.swift; sourceTree = "<group>"; };
+		EFCC413C20780EA700D7E7DD /* BancoDeMoradores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDeMoradores.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		57FEA2E7207694E800905B2A = {
 			isa = PBXGroup;
 			children = (
+				EFCC413B20780CFD00D7E7DD /* Bancos de Dados */,
 				5778D7832076E61400B32936 /* Subclasses Novas */,
 				5778D7842076E65200B32936 /* Classes Novas */,
 				57FEA2F2207694E900905B2A /* Prototipo#1-Camila */,
@@ -148,6 +151,14 @@
 				57FEA315207694EE00905B2A /* Info.plist */,
 			);
 			path = "Prototipo#1-CamilaUITests";
+			sourceTree = "<group>";
+		};
+		EFCC413B20780CFD00D7E7DD /* Bancos de Dados */ = {
+			isa = PBXGroup;
+			children = (
+				EFCC413C20780EA700D7E7DD /* BancoDeMoradores.swift */,
+			);
+			path = "Bancos de Dados";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 				57FEA2F6207694E900905B2A /* ViewController.swift in Sources */,
 				576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */,
 				57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */,
+				EFCC413D20780EA700D7E7DD /* BancoDeMoradores.swift in Sources */,
 				57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */,
 				57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */,
 			);
@@ -462,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-Camila/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-Camila";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-Camila/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-Camila";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,9 +505,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-CamilaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototipo#1-Camila.app/Prototipo#1-Camila";
@@ -507,9 +523,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-CamilaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos11.2;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prototipo#1-Camila.app/Prototipo#1-Camila";
@@ -522,6 +540,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-CamilaUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -537,6 +556,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Prototipo#1-CamilaUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "academy.Prototipo-1-CamilaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
