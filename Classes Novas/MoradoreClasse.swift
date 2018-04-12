@@ -23,9 +23,3 @@ class Morador {
 }
 
 
-var ninguem = Morador(imagem: UIImage(named: "add-morador.png")!, nome:"Ninguem")
-
-//var penelope = Morador(
-//penelope.imagem
-//Morador(<#T##imagem: UIImage##UIImage#>, nome: <#T##String#>, pontuação: <#T##Int#>)
-

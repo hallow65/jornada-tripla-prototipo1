@@ -12,10 +12,10 @@ import UIKit
 class TarefaDomestica {
   var imagem:UIImage
   var descricao:String = ""
-  var prazo:String
+  var prazo:String = "sem prazo"
   var estaEscolhida:Bool = false // quando é criada
   var estaFeita:Bool = false
-  var valor:Int
+  var valor:Int = 1
   var quemVaiFazer:Morador = ninguem
   var quemFez:Morador = ninguem
   
@@ -28,10 +28,15 @@ class TarefaDomestica {
   }
   
   // init sem descrição
-  init (imagem:UIImage, prazo:String, valor:Int) {
+  init(imagem:UIImage, prazo:String, valor:Int) {
     self.imagem = imagem
     self.prazo = prazo
     self.valor = valor
+  }
+  
+  // init do MVP
+  init(imagem:UIImage) {
+    self.imagem = imagem
   }
   
 }

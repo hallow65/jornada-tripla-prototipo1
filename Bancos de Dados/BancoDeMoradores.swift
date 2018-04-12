@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-var bancoDeMoradores:[Morador] = [Morador(imagem: UIImage (named: "add-morador.png")!, nome: "você"),
-                                  Morador(imagem: UIImage(named: "add-morador.png")!, nome: "morador2"),
-                                  Morador(imagem: UIImage(named: "add-morador.png")!, nome: "morador"),
-                                  Morador(imagem: UIImage(named: "add-morador.png")!, nome: "morador4")]
+var ninguem = Morador(imagem: UIImage(named: "add-morador.png")!, nome:"Ninguem")
 
+// array de dados
+var bancoDeMoradores:[Morador] = [ninguem, ninguem, ninguem, ninguem]

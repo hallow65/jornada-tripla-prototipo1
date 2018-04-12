@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576639DB2076BF1F00372643 /* MoradorCelula.swift */; };
+		5792441A207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */; };
+		5792441C207FF0F900EFE540 /* BancoDeTarefas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */; };
 		57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F3207694E900905B2A /* AppDelegate.swift */; };
 		57FEA2F6207694E900905B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F5207694E900905B2A /* ViewController.swift */; };
 		57FEA2F9207694E900905B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2F7207694E900905B2A /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		576639DB2076BF1F00372643 /* MoradorCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradorCelula.swift; sourceTree = "<group>"; };
+		57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AtividadesEscolhidasCell.swift; path = "Subclasses Novas/AtividadesEscolhidasCell.swift"; sourceTree = SOURCE_ROOT; };
+		5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDeTarefas.swift; sourceTree = "<group>"; };
 		57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo#1-Camila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA2F3207694E900905B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA2F5207694E900905B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				576639DB2076BF1F00372643 /* MoradorCelula.swift */,
+				57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */,
 			);
 			path = "Subclasses Novas";
 			sourceTree = "<group>";
@@ -110,7 +115,9 @@
 				57FEA312207694EE00905B2A /* Prototipo#1-CamilaUITests */,
 				57FEA2F1207694E900905B2A /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		57FEA2F1207694E900905B2A /* Products */ = {
 			isa = PBXGroup;
@@ -157,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				EFCC413C20780EA700D7E7DD /* BancoDeMoradores.swift */,
+				5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */,
 			);
 			path = "Bancos de Dados";
 			sourceTree = "<group>";
@@ -296,8 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FEA2F6207694E900905B2A /* ViewController.swift in Sources */,
+				5792441C207FF0F900EFE540 /* BancoDeTarefas.swift in Sources */,
 				576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */,
 				57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */,
+				5792441A207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift in Sources */,
 				EFCC413D20780EA700D7E7DD /* BancoDeMoradores.swift in Sources */,
 				57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */,
 				57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */,
