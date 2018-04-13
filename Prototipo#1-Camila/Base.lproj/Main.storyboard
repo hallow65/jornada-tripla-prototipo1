@@ -41,20 +41,15 @@
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoA-JU-qfC">
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoA-JU-qfC">
                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <connections>
                                                         <action selector="trocarMoradorButton:" destination="SRn-qg-enN" eventType="touchUpInside" id="wSl-Ry-du3"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="NoA-JU-qfC" firstAttribute="width" secondItem="SRn-qg-enN" secondAttribute="width" id="FH1-fL-YQf"/>
-                                            <constraint firstItem="NoA-JU-qfC" firstAttribute="centerX" secondItem="SRn-qg-enN" secondAttribute="centerX" id="fCb-WZ-rIr"/>
-                                            <constraint firstItem="NoA-JU-qfC" firstAttribute="height" secondItem="SRn-qg-enN" secondAttribute="height" id="u7j-ut-HDe"/>
-                                            <constraint firstItem="NoA-JU-qfC" firstAttribute="centerY" secondItem="SRn-qg-enN" secondAttribute="centerY" id="y2y-0r-1f9"/>
-                                        </constraints>
                                         <connections>
                                             <outlet property="moradorIconeButton" destination="NoA-JU-qfC" id="iQx-kb-hQs"/>
                                         </connections>

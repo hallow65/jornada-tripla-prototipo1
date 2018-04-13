@@ -21,10 +21,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   override func viewDidLoad() {
     super.viewDidLoad()
     self.moradoresDaCasaCollection.dataSource = self
-    self.tarefasEscolhidasCollection?.dataSource = self
-    self.tarefasLivresCollection?.dataSource = self
+    self.tarefasEscolhidasCollection.dataSource = self
+    self.tarefasLivresCollection.dataSource = self
     
     self.moradoresDaCasaCollection.delegate = self
+    self.tarefasEscolhidasCollection.delegate = self
+    self.tarefasLivresCollection.delegate = self
   }
   
   override func didReceiveMemoryWarning() {
