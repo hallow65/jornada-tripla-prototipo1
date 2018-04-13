@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5733831520812CC30043E68F /* TarefasDaCasaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5733831420812CC30043E68F /* TarefasDaCasaCell.swift */; };
 		576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576639DB2076BF1F00372643 /* MoradorCelula.swift */; };
-		5792441A207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */; };
+		5792441A207FEDDB00EFE540 /* TarefasEscolhidasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57924419207FEDDB00EFE540 /* TarefasEscolhidasCell.swift */; };
 		5792441C207FF0F900EFE540 /* BancoDeTarefas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */; };
 		57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F3207694E900905B2A /* AppDelegate.swift */; };
 		57FEA2F6207694E900905B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F5207694E900905B2A /* ViewController.swift */; };
@@ -40,8 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5733831420812CC30043E68F /* TarefasDaCasaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasDaCasaCell.swift; sourceTree = "<group>"; };
 		576639DB2076BF1F00372643 /* MoradorCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradorCelula.swift; sourceTree = "<group>"; };
-		57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AtividadesEscolhidasCell.swift; path = "Subclasses Novas/AtividadesEscolhidasCell.swift"; sourceTree = SOURCE_ROOT; };
+		57924419207FEDDB00EFE540 /* TarefasEscolhidasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TarefasEscolhidasCell.swift; path = "Subclasses Novas/TarefasEscolhidasCell.swift"; sourceTree = SOURCE_ROOT; };
 		5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDeTarefas.swift; sourceTree = "<group>"; };
 		57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo#1-Camila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA2F3207694E900905B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,7 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				576639DB2076BF1F00372643 /* MoradorCelula.swift */,
-				57924419207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift */,
+				5733831420812CC30043E68F /* TarefasDaCasaCell.swift */,
+				57924419207FEDDB00EFE540 /* TarefasEscolhidasCell.swift */,
 			);
 			path = "Subclasses Novas";
 			sourceTree = "<group>";
@@ -307,10 +310,11 @@
 				5792441C207FF0F900EFE540 /* BancoDeTarefas.swift in Sources */,
 				576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */,
 				57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */,
-				5792441A207FEDDB00EFE540 /* AtividadesEscolhidasCell.swift in Sources */,
+				5792441A207FEDDB00EFE540 /* TarefasEscolhidasCell.swift in Sources */,
 				EFCC413D20780EA700D7E7DD /* BancoDeMoradores.swift in Sources */,
 				57FEA32220769F0C00905B2A /* TarefaDomesticaClasse.swift in Sources */,
 				57FEA3252076A1EB00905B2A /* MoradoreClasse.swift in Sources */,
+				5733831520812CC30043E68F /* TarefasDaCasaCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

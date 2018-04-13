@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+// var addMoradorImageName = "add-morador.png"
+
 var ninguem = Morador(imagem: UIImage(named: "add-morador.png")!, nome:"Ninguem")
 
 // array de dados

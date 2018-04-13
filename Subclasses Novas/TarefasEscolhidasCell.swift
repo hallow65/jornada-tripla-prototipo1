@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AtividadesEscolhidasCell: UICollectionViewCell {
+class TarefasEscolhidasCell: UICollectionViewCell {
   
   @IBOutlet weak var tarefaEscolhidaButton: UIButton!
   

@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 var adicioneTarefa = TarefaDomestica(imagem: UIImage(named: "add-tarefa.png")!)
 var nenhuma = TarefaDomestica(imagem: UIImage(named: "sem-tarefa.png")!)
 
