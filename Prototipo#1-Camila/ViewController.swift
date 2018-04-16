@@ -13,10 +13,17 @@ var banco2 : [Int] = [1]
 var banco3 : [Int] = []
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
   
+  // collection views
   @IBOutlet weak var moradoresDaCasaCollection: UICollectionView!
   @IBOutlet weak var tarefasEscolhidasCollection: UICollectionView!
   @IBOutlet weak var tarefasLivresCollection: UICollectionView!
   
+  // pop-ups
+  @IBOutlet weak var addMoradorPopUp: UIView!
+  @IBOutlet weak var addTarefaPopUp: UIView!
+  @IBOutlet weak var verTarefaPopUp: UIView!
+  @IBOutlet weak var verPontosPopUp: UIView!
+    
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -83,7 +90,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     if collectionView == moradoresDaCasaCollection {
       
-      let moradorCelula:MoradorCelula = moradoresDaCasaCollection.dequeueReusableCell(withReuseIdentifier: "fotosMoradores", for: indexPath) as! MoradorCelula
+      let moradorCelula:MoradorCelula = moradoresDaCasaCollection.cellForItem(at: indexPath) as! MoradorCelula
       
       // if moradorCelula.moradorIconeButton.ba
       
@@ -91,17 +98,19 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       
     } else if collectionView == tarefasEscolhidasCollection {
       
-      let escolhidaCelula:TarefasEscolhidasCell = tarefasEscolhidasCollection.dequeueReusableCell(withReuseIdentifier: "fotosAtividadesEscolhidasCell", for: indexPath) as! TarefasEscolhidasCell
+      let escolhidaCelula:TarefasEscolhidasCell = tarefasEscolhidasCollection.cellForItem(at: indexPath) as! TarefasEscolhidasCell
       
       // popup de "fez tarefa?"
       
     } else { // então é tarefasLivresCollection
       
-      let livresCelula:TarefasDaCasaCell = tarefasLivresCollection.dequeueReusableCell(withReuseIdentifier: "tarefasLivresCell", for: indexPath) as! TarefasDaCasaCell
+      let livresCelula:TarefasDaCasaCell = tarefasLivresCollection.cellForItem(at: indexPath) as! TarefasDaCasaCell
       
-      // if livresCelula.tarefasLivresImagem.image == UIImage(named: "add-tarefa.png") {
-        // popup de "pegar tarefa?"
-      // }
+      if livresCelula.tarefasLivresImagem.image == UIImage(named: "add-tarefa.png") {
+        print("oi")
+        self.addTarefaPopUp.center = self.view.center
+        self.view.addSubview(self.addTarefaPopUp)
+      }
       
     
     }
@@ -112,7 +121,16 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   } // </func>
   
   
-  
+  //dismiss nos popups
+    @IBAction func addTarefaButton(_ sender: Any) {
+        addTarefaPopUp.removeFromSuperview()
+        // append no array
+    
+    }
+    
+    
+    
+    
   
   
 }
