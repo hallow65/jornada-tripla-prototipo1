@@ -11,10 +11,10 @@
 		576639DC2076BF1F00372643 /* MoradorCelula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576639DB2076BF1F00372643 /* MoradorCelula.swift */; };
 		5792441A207FEDDB00EFE540 /* TarefasEscolhidasCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57924419207FEDDB00EFE540 /* TarefasEscolhidasCell.swift */; };
 		5792441C207FF0F900EFE540 /* BancoDeTarefas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */; };
+		57E1A6722086995800D4A454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E1A6712086995800D4A454 /* Assets.xcassets */; };
 		57FEA2F4207694E900905B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F3207694E900905B2A /* AppDelegate.swift */; };
 		57FEA2F6207694E900905B2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA2F5207694E900905B2A /* ViewController.swift */; };
 		57FEA2F9207694E900905B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2F7207694E900905B2A /* Main.storyboard */; };
-		57FEA2FB207694ED00905B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2FA207694ED00905B2A /* Assets.xcassets */; };
 		57FEA2FE207694ED00905B2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */; };
 		57FEA309207694EE00905B2A /* Prototipo_1_CamilaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA308207694EE00905B2A /* Prototipo_1_CamilaTests.swift */; };
 		57FEA314207694EE00905B2A /* Prototipo_1_CamilaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEA313207694EE00905B2A /* Prototipo_1_CamilaUITests.swift */; };
@@ -45,11 +45,11 @@
 		576639DB2076BF1F00372643 /* MoradorCelula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoradorCelula.swift; sourceTree = "<group>"; };
 		57924419207FEDDB00EFE540 /* TarefasEscolhidasCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TarefasEscolhidasCell.swift; path = "Subclasses Novas/TarefasEscolhidasCell.swift"; sourceTree = SOURCE_ROOT; };
 		5792441B207FF0F900EFE540 /* BancoDeTarefas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BancoDeTarefas.swift; sourceTree = "<group>"; };
+		57E1A6712086995800D4A454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FEA2F0207694E900905B2A /* Prototipo#1-Camila.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prototipo#1-Camila.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FEA2F3207694E900905B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57FEA2F5207694E900905B2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57FEA2F8207694E900905B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		57FEA2FA207694ED00905B2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FEA2FD207694ED00905B2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57FEA2FF207694ED00905B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FEA304207694EE00905B2A /* Prototipo#1-CamilaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prototipo#1-CamilaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,8 +137,8 @@
 			children = (
 				57FEA2F3207694E900905B2A /* AppDelegate.swift */,
 				57FEA2F5207694E900905B2A /* ViewController.swift */,
+				57E1A6712086995800D4A454 /* Assets.xcassets */,
 				57FEA2F7207694E900905B2A /* Main.storyboard */,
-				57FEA2FA207694ED00905B2A /* Assets.xcassets */,
 				57FEA2FC207694ED00905B2A /* LaunchScreen.storyboard */,
 				57FEA2FF207694ED00905B2A /* Info.plist */,
 			);
@@ -280,7 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FEA2FE207694ED00905B2A /* LaunchScreen.storyboard in Resources */,
-				57FEA2FB207694ED00905B2A /* Assets.xcassets in Resources */,
+				57E1A6722086995800D4A454 /* Assets.xcassets in Resources */,
 				57FEA2F9207694E900905B2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
