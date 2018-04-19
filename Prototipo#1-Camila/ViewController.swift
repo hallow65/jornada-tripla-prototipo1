@@ -26,8 +26,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
   //outlets das gambiarras
     @IBOutlet weak var fotoTarefaEscolhida: UIImageView!
-    
-  //
+    @IBOutlet weak var cameraPraEsconder: UIImageView!
+    //
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -96,9 +96,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
       
       let moradorCelula:MoradorCelula = moradoresDaCasaCollection.cellForItem(at: indexPath) as! MoradorCelula
       
-      // if moradorCelula.moradorIconeButton.ba
-      
-      // popup de add morador
+      if moradorCelula.moradorIconeButton.imageView?.image == UIImage(named: "add-morador.png") {
+        print("oi")
+        self.addMoradorPopUp.center = self.view.center
+        self.view.addSubview(self.addMoradorPopUp)
+      }
+    
       
     } else if collectionView == tarefasEscolhidasCollection {
       
@@ -126,14 +129,21 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
   
     @IBAction func addFotoTarefaButton(_ sender: Any) {
         fotoTarefaEscolhida.image = UIImage(named: "pratos.jpg")
-        
+        cameraPraEsconder.image = nil
     }
     
   //dismiss nos popups
     @IBAction func addTarefaButton(_ sender: Any) {
         addTarefaPopUp.removeFromSuperview()
+      
         // append no array
+        var tarefaNova = TarefaDomestica(imagem: UIImage(named: "pratos.jpg")!)
+        bancoDeTarefasLivres.append(tarefaNova)
+        tarefasLivresCollection.reloadData()
+        fotoTarefaEscolhida.image = UIImage(named: "sem-tarefa.jpg")
+      
     }
+  
     
     
     

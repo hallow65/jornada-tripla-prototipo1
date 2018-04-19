@@ -15,7 +15,7 @@ var nenhuma = TarefaDomestica(imagem: UIImage(named: "sem-tarefa.png")!)
 
 // mostrados em cada sessão
 var bancoDeTarefasEscolhidas:[TarefaDomestica] = [nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma]
-var bancoDeTarefasLivres:[TarefaDomestica] = [adicioneTarefa, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma, nenhuma]
+var bancoDeTarefasLivres:[TarefaDomestica] = [adicioneTarefa]
 
 
 // geral
